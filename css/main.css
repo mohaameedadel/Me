@@ -1,0 +1,107 @@
+section {
+  background-image: linear-gradient(#252323cb 0% 100%),
+    url("../images/website-html-code-browser-view-printed-white-paper-closeup-view.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img {
+  width: 12.5rem;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.125rem;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li a{
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+ul li a:hover{
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+.fa-facebook {
+  color: #4267b2;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: -webkit-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -o-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.fa-linkedin-in {
+  color: #0a66c2;
+}
+.fa-github {
+  color: #171515;
+}
+
+.fa-envelope {
+  color: #c71610;
+}
+
+.fa-whatsapp{
+  color: 	#075E54;
+}
